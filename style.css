@@ -1,0 +1,88 @@
+/* unversil section */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* the css part start from here */
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(0, 100%, 100%);
+}
+.asnwer-part {
+  display: none;
+}
+.question-part {
+  display: none;
+}
+.both-part {
+  display: block;
+  background-color: hsl(213, 19%, 18%);
+  padding: 30px;
+  border-radius: 15px;
+}
+.question {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: rgb(220, 219, 219);
+}
+.both-part p {
+  font-size: 14px;
+  color: rgb(135, 134, 134);
+}
+.choosing-part {
+  display: flex;
+  flex-direction: row;
+  gap: 1;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.choosing-part div {
+  background-color: hsl(216, 14%, 14%);
+  padding: 10px;
+  border-radius: 50%;
+  color: rgb(135, 134, 134);
+}
+.choosing-part div:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: black;
+  cursor: pointer;
+}
+button {
+  border: none;
+  margin-left: 70px;
+  margin-left: 30px;
+  border-radius: 50px;
+  padding: 15px 60px;
+  letter-spacing: 2px;
+  background-color: hsl(25, 97%, 53%);
+  font-family: "Arial", sans-serif;
+}
+button:hover {
+  background-color: hsl(0, 100%, 100%);
+  cursor: pointer;
+}
+.asnwer-part {
+  text-align: center;
+}
+.result-part {
+  background-color: hsl(215, 18%, 13%);
+  border-radius: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: hsl(25, 97%, 53%);
+}
+.asnwer-part h2 {
+  margin-bottom: 20px;
+}
+.asnwer-part p {
+  margin-bottom: 1px;
+}
+.white {
+  background-color: white;
+}
